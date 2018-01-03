@@ -121,7 +121,7 @@ class RaceAverage {
 
     }, 0);
 
-    // Calculate and return the average time racing for all sailboats rounded to the nearest integer.
+    // Calculate and return the average time spent racing for all sailboats rounded to the nearest integer.
     return Math.round(raceTimesTotal / times.length);
 
   }
