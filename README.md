@@ -1,8 +1,8 @@
 # sweetgreen2
 
-## Getting started
+## Instructions
 
-1. This solution is implemente in Node.js so make sure you have the latest version of Node.js installed.
+1. This solution is implemented in Node.js so make sure you have the latest version of Node.js installed.
 2. To run this program fork the repo and clone it down to your local machine.
 3. You do not need to run npm install as the only dependency is a linter.
 4. From the project root run 'node index.js' and the program will run. Eeach of the two solutions is run with 
