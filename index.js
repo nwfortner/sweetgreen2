@@ -53,6 +53,7 @@ console.log(textBlocking(testList3), 'testList3');
 
 
 class RaceAverage {
+
   constructor() {
 
     // Initialize RaceAverage class with class proerties.
@@ -64,6 +65,7 @@ class RaceAverage {
     this.minutesInDay = 1440;
     this.minutesInHour = 60;
     this.raceStartMinutesOffset = 8 * 60;
+    
   }
 
   // Extract minutes from a single time string.
