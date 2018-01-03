@@ -65,17 +65,17 @@ class RaceAverage {
     this.minutesInDay = 1440;
     this.minutesInHour = 60;
     this.raceStartMinutesOffset = 8 * 60;
-    
+
   }
 
-  // Extract minutes from a single time string.
+  // Extract minutes from a single time string and coerce the value to a number.
 
   getMinutes(timeString) {
     return +timeString.substring(3, 5);
   }
 
-  // Extract the hours from a single time string and normalize the hours to a 24 hour period
-  // beginning at 0.
+  // Extract the hours from a single time string, normalize the hours to a 24 hour period
+  // beginning at 0, and and coerce the value to a number.
 
   getHours(timeString) {
     let hours = +timeString.substring(0, 2);
@@ -91,14 +91,14 @@ class RaceAverage {
     return hours + 12;
   }
 
-  // Extract weather the time in the time string is AM or PM.
+  // Extract whether the time in the time string is AM or PM.
 
   getAMorPM(timeString) {
     return timeString.substring(6, 8);
   }
 
   // Extract the number of fully completed days in the input timestring
-  // subtracting one for the current day.
+  // subtracting one for the current day, and coerce the value to a number.
 
   getDaysCompleted(timeString) {
     return +timeString.substring(14) - 1;
