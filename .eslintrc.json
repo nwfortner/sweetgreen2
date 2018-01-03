@@ -1,0 +1,8 @@
+{
+    "extends": "airbnb-base",
+    "rules": {
+        "no-plusplus": "off",
+        "padded-blocks": "off",
+        "class-methods-use-this": "off"
+    }
+}
